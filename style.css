@@ -29,6 +29,8 @@
 
 main {
   display: flex;
+  justify-content: center;
+  margin: 70px 0;
 }
 
 main > form {
@@ -39,8 +41,6 @@ main > form {
 
 #trybewarts-forms-logo {
   height: 500px;
-  position: absolute;
-  right: 0;
 }
 
 #nomeSobrenome {
@@ -54,4 +54,9 @@ main > form {
 #radios {
     display: flex;
     flex-direction: column;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  
 }
