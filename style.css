@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-content: center;
+  justify-content: space-evenly;
+  height: 150px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.header > form {
+  margin: 60px;
+}
+
+.header > form > label {
+  margin: 0 20px;
+}
+
+#Entrar {
+  margin: 0 20px;
+}
+#trybewarts-header-title {
+  color: white;
+  display: flex;
+  align-items: center;
+}
