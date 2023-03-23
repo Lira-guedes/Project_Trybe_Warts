@@ -18,10 +18,10 @@
             
             <form class="trybewarts-login" action="">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="Email">
+                <input type="text" name="email" id="email" placeholder="Email" required>
                 
                 <label for="pass">Senha</label>
-                <input type="text" name="password" id="pass" placeholder="Senha">
+                <input type="text" name="password" id="pass" placeholder="Senha" required>
                 
                 <button id="Entrar">Entrar</button>
             </form>
@@ -51,8 +51,25 @@
                     <option id="pytherina-house" value="Pytherina">Pytherina</option>
                 </select>
                 </div>
+                
+                
+                <div id="radios">
+                    <label id="label-family" for="">Qual sua família?</label>
+                    <input type="radio" name="family" value="Frontend" id="">
+                    <input type="radio" name="family" value="Backend" id="">
+                    <input type="radio" name="family" value="FullStack" id="">
+                </div>
+
+                <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+                <input type="checkbox" class="subject" name="" value="HoFs">
+                <input type="checkbox" class="subject" name="" value="Jest">
+                <input type="checkbox" class="subject" name="" value="Promises">
+                <input type="checkbox" class="subject" name="" value="React">
+                <input type="checkbox" class="subject" name="" value="SQL">
+                <input type="checkbox" class="subject" name="" value="Python">
 
             </form>
+
         </main>
 
 

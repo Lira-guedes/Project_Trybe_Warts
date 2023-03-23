@@ -50,3 +50,8 @@ main > form {
 #emailHouses {
     display: flex;
 }
+
+#radios {
+    display: flex;
+    flex-direction: column;
+}
