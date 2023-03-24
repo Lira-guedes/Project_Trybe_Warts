@@ -1,17 +1,22 @@
+body {
+  padding: 0;
+  margin: 0;
+  max-height: 768px;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   align-content: center;
-  justify-content: space-evenly;
-  height: 150px;
+  justify-content: space-between;
+  padding: 7px;
+  height: 60px;
 }
 
 .trybewarts-login {
   display: flex;
-}
-
-.header > form {
-  margin: 60px;
+  align-items: center;
+  margin: 20px;
 }
 
 .header > form > label {
@@ -19,8 +24,9 @@
 }
 
 #Entrar {
-  margin: 0 20px;
+  margin: 0 30px;
 }
+
 #trybewarts-header-title {
   color: white;
   display: flex;
@@ -44,19 +50,34 @@ main > form {
 }
 
 #nomeSobrenome {
-    display: flex;
+  display: flex;
 }
 
 #emailHouses {
-    display: flex;
+  display: flex;
 }
 
 #radios {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-footer{
+
+/* footer {
   display: flex;
   justify-content: center;
-  
+  align-content: center;
+  background-color: rgb(59, 59, 63);
+  color: white;
+  height: 28px;
+} */
+
+footer {
+  text-align: center;
+  background-color: rgb(59, 59, 63);
+  color: white;
+  height: 28px;
+}
+
+footer > p {
+  padding-top: 5px;
 }
