@@ -3,6 +3,7 @@ const pass = document.querySelector('#pass');
 const btnEntrar = document.querySelector('#Entrar');
 const btnSubmit = document.querySelector('#submit-btn');
 const agreement = document.querySelector('#agreement');
+const textArea = document.querySelector('#text');
 
 btnEntrar.addEventListener('click', (event) => {
   event.preventDefault();
@@ -26,11 +27,13 @@ agreement.addEventListener('click', activeSubmit);
 */
 
 agreement.addEventListener('click', () => {
-    btnSubmit.disabled = !agreement.checked;
-})
+  btnSubmit.disabled = !agreement.checked;
+});
 
-function textCount () {
+function textCount() {
   const text = document.getElementById('text').value.length;
   const counter = document.getElementById('counter');
   counter.innerText = 500 - text;
 }
+
+textArea.addEventListener('keyup', textCount);
